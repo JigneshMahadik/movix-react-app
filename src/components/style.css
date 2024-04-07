@@ -1,0 +1,89 @@
+#nav-main-cont{
+    background-color: #04152d;
+    /* height: 70px; */
+    display: flex;
+    position: relative;
+    top: 0;
+    width: 100%;
+    color: white;
+}
+@media(max-width:500px){
+    #left-cont img{
+        padding-bottom: 5px;
+        padding-top: 5px;
+    }
+    #right-cont p{
+        display: none;
+    }
+}
+#left-cont{
+    width: 50%;
+    /* background-color: aqua; */
+    display: flex;
+    /* align-items: center; */
+    padding-left: 5%;
+    justify-content: left;
+    cursor: pointer;
+    color:#000000;
+}
+#left-cont img{
+    padding-top: 3px;   
+}
+#right-cont{
+    width: 50%;
+    display: flex;
+    justify-content: end;
+    /* justify-content: space-between; */
+    /* background-color: aquamarine; */
+    align-content: center;
+    gap: 30px;
+    /* text-align: end; */
+    padding-right: 5rem;
+}
+#right-cont img{
+    /* background-color: aqua; */
+    /* padding-top: 4px; */
+    margin-bottom: -3px;   
+}
+
+/* Hero Banner */
+#hero-main-cont{
+    /* width: 100%; */
+    /* background-color: tomato; */
+    position: relative;
+    display: inline-block;
+}
+#banner-content{
+    background-color: turquoise;
+    position: absolute;
+}
+#hero-main-cont h1{
+    position: absolute;
+    font-weight: 700;
+    font-size: 8vw;
+    top: 5%;
+    left: 33%;
+    color: white;
+}
+#banner-subtitle{
+    position: absolute;
+    width: 70%;
+    font-size: 2vw;
+    /* background-color: violet; */
+    top: 30%;
+    left: 15%;
+    color: white;
+}
+/* #hero-main-cont p{
+    position: absolute;
+    font-size: 2vw;
+    top: 10%;
+    left: 23%;
+    color: white;
+} */
+#hero-main-cont img{
+    width: 100%;
+    display: block;
+    /* height: auto; */
+    opacity: 0.888;
+}
