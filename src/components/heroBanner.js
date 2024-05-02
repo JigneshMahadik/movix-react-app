@@ -9,7 +9,8 @@ export function HeroBanner(){
                 <p>Millions of movies, TV shows and people to discover. Explore now.</p>
             </div>
             <div id="banner-input-cont">
-                
+                <input type="text" placeholder="Search for a movie or tv show...."/>
+                <button>Search</button>
             </div>
         </div>
     )
